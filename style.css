@@ -65,7 +65,6 @@ body {
     height: 50px;
     width: 3px;
     transform-origin: bottom center;
-    transition: all 0.5s ease-in;
 }
 
 .needle.hour {
@@ -112,8 +111,8 @@ body {
 }
 
 .date {
-    color: #aaa;
-    font-size: 14px;
+    color: rgb(138, 138, 138);
+    font-size: 16px;
     letter-spacing: 0.3px;
     text-transform: uppercase;
 }
@@ -122,12 +121,12 @@ body {
     background-color: var(--primary-color);
     color: var(--secondary-color);
     border-radius: 50%;
-    height: 18px;
-    width: 18px;
+    height: 22px;
+    width: 22px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     line-height: 18px;
     transition: all 0.5s ease-in;
-    font-size: 12px;
+    font-size: 14px;
 }
