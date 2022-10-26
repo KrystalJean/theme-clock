@@ -55,7 +55,6 @@ body {
     position: relative;
     width: 200px;
     height: 200px;
-    background-color: #f0f0f0;
 }
 
 .needle {
@@ -63,9 +62,10 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    height: 65px;
+    height: 50px;
     width: 3px;
     transform-origin: bottom center;
+    transition: all 0.5s ease-in;
 }
 
 .needle.hour {
@@ -75,6 +75,7 @@ body {
 .needle.minute {
     transform: translate(-50%, -100%) rotate(0deg);
     height: 100px;
+    outline: #eb3e2b solid 0.1px;
 }
 
 .needle.second {
